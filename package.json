@@ -1,0 +1,22 @@
+{
+  "name": "crud_prakerja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Meti",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "module": "^1.2.5",
+    "mysql2": "^3.6.0",
+    "nodemon": "^3.0.1"
+  }
+}
